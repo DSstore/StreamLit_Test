@@ -1,33 +1,3 @@
-# Deployment options#
-# Now that we’ve gone through the steps of developing an application,
-# it’s time to deploy it so users can interact with it.
-#
-# There are several options to deploy applications, including the following:
-#
-# Heroku
-# AWS
-# Streamlit Cloud
-# In this lesson, we learn to deploy applications using Streamlit Cloud.
-
-# Streamlit Cloud#
-# Connect to the service#
-# When we first access Streamlit Cloud, we see the page shown in the image above.
-#
-# You need a Github account where our repository (repo) will be situated to deploy on Streamlit Cloud.
-# This is the advisable way to sign up for the service.
-#
-# The first time we do this, we go through the process of connecting our GitHub account to the service.
-#
-# The repo should contain the Python script file and a requirements.txt file containing
-# packages needed to build and run our application successfully.
-#
-# Streamlit Cloud’s Community Tier allows the deployment of just one private repo and unlimited public repos.
-#
-# Required files#
-# As a demonstration, we use the following script for the application to be deployed.
-# This script sets up a basic photo editor application that lets users upload an image
-# and perform basic manipulation on it:
-
 import streamlit as st
 import numpy as np
 from PIL import Image
